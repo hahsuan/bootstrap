@@ -1,7 +1,7 @@
 <?php
 //2017/11/08
 $msgError = "預設密碼是0000";
-if(isset($_POST["Enter"])){
+if(isset($_POST["SID"])){
     session_start();
     require_once 'db_func5.php';
     //    $GLOBALS['dbconfig'] = $dbconfig;
@@ -168,10 +168,10 @@ body {
 <body bgcolor="#F0F0F0">
 <div style="text-align:center;">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 
-<meta charset="utf-8">
+<meta charset="utf-8"> -->
     <meta name="robots" content="noindex, nofollow">
 
 
